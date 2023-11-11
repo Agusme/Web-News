@@ -25,7 +25,7 @@ const NewForm = ({ handleCategoryChange }) => {
             <option disabled>Options</option>
             <option value="general">General</option>
 
-            <option value="bussines">Bussines</option>
+            <option value="business">Bussines</option>
             <option value="entertainment">Entertainment</option>
             <option value="health">Health</option>
             <option value="science">Science</option>
