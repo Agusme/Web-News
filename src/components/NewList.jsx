@@ -1,10 +1,9 @@
 import React from "react";
-import { Button, Card, Col, Row } from "react-bootstrap";
+import {  Card, Col, Row } from "react-bootstrap";
+import { Link } from 'react-router-dom';
 
 const NewList = ({ news}) => {
 
-
-    
   return (
     
     <Card className="mt-4">
@@ -21,7 +20,7 @@ const NewList = ({ news}) => {
                     <Card.Text>
                     {newItem?.description}
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Link className="btn btn-primary" variant="primary" to={newItem?.url}>Leer noticia completa</Link>
                   </Card.Body>
                 </Card>
               </Col>
